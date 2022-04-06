@@ -33,9 +33,6 @@ df.dtypes
 df["master_id"].nunique()
 df.columns
 
-# ifade etmektedir. Her bir müşterinin toplam alışveriş sayısı ve harcaması için yeni değişkenler
-# oluşturunuz.
-
 
 # Toplam alışveriş sayısı =  Online + Offline
 df["Order_num_total_ever"] = df['order_num_total_ever_online'] + df['order_num_total_ever_offline']
